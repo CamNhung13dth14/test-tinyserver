@@ -34,26 +34,6 @@ public class UserPage {
         _driver.findElement(By.xpath("//div//tbody/tr["+rowIndex+"]/td[3]/div//input[@field='email']")).sendKeys(user.getEmail());/**/
 
 
-
-
-
-
-
-        /*_driver.findElement(By.xpath("//div//tbody/tr[1]/td[2]/div//input[@field='firstName']")).sendKeys("Test 1");
-        _driver.findElement(By.xpath("//div//tbody/tr[1]/td[2]/div//input[@field='lastName']")).sendKeys("1");
-        _driver.findElement(By.xpath("//div//tbody/tr[1]/td[3]/div//input[@field='email']")).sendKeys("12345@gmail.com");
-
-        _driver.findElement(By.xpath("//div//tbody/tr[2]/td[2]/div//input[@field='firstName']")).sendKeys("Test 1");
-        _driver.findElement(By.xpath("//div//tbody/tr[2]/td[2]/div//input[@field='lastName']")).sendKeys("1");
-        _driver.findElement(By.xpath("//div//tbody/tr[2]/td[3]/div//input[@field='email']")).sendKeys("12345@gmail.com");
-
-        _driver.findElement(By.xpath("//div//tbody/tr[3]/td[2]/div//input[@field='firstName']")).sendKeys("Test 1");
-        _driver.findElement(By.xpath("//div//tbody/tr[3]/td[2]/div//input[@field='lastName']")).sendKeys("1");
-        _driver.findElement(By.xpath("//div//tbody/tr[3]/td[3]/div//input[@field='email']")).sendKeys("12345@gmail.com");
-
-        _driver.findElement(By.xpath("//div//tbody/tr[4]/td[2]/div//input[@field='firstName']")).sendKeys("Test 1");
-        _driver.findElement(By.xpath("//div//tbody/tr[4]/td[2]/div//input[@field='lastName']")).sendKeys("1");
-        _driver.findElement(By.xpath("//div//tbody/tr[4]/td[3]/div//input[@field='email']")).sendKeys("12345@gmail.com");*/
     }
 
     public void addUser()
